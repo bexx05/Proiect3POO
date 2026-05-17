@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1777480237 source:c:\users\natalia\documents\rebecunea iepurunea\poo\gol\main.cpp
+	"raylib.h"
+
+1777479507 c:\raylib-6.0_win32_mingw-w64\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
