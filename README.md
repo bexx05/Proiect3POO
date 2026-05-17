@@ -47,12 +47,16 @@ Clasa **SimulationConfig** utilizează modelul **Singleton** pentru a oferi un p
 În **main.cpp**, acest **Singleton** este configurat imediat după citirea datelor de la utilizator. Ulterior, este utilizat în constructorul clasei **Grid** și în **ConsoleStatsObserver**. Utilizarea **Singleton**-ului este justificată aici deoarece configurația simulării este unică și globală în contextul rulării curente a aplicației. Aceasta asigură că toate componentele sistemului lucrează cu același set de date de configurare, evitând erorile de sincronizare a parametrilor.
 
 ---
+
+## Concluzie
+
+Modificările aduse acestui proiect îndeplinesc cu succes toate criteriile tehnice stabilite. Clasa **GenerationLog<T>** demonstrează utilizarea corectă a programării generice, de la atribute dependente de tip până la specializări complexe. Funcția **average<T>** completează necesarul de funcții șablon independente. Cele trei modele de proiectare — **Observer**, **Factory Method** și **Singleton** — sunt implementate riguros și aplicate în contexte potrivite temei proiectului, transformând un cod procedural într-un sistem orientat pe obiecte, modular și extrem de ușor de întreținut pe termen lung.
+
+---
+
 ## 5. Bibliografie
 * [SFML Documentation](https://www.sfml-dev.org/documentation/2.5.1/)
 * [Conway's Game of Life Rules](https://conwaylife.com/wiki/Conway%27s_Game_of_Life)
 * [Modern C++ Design Patterns (NVI)](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Non-Virtual_Interface)
 * Tutorial yt https://www.youtube.com/watch?v=daFYGrXq0aw
 * Alt tutorial yt https://www.youtube.com/watch?v=9NK5holxvOw
-## Concluzie
-
-Modificările aduse acestui proiect îndeplinesc cu succes toate criteriile tehnice stabilite. Clasa **GenerationLog<T>** demonstrează utilizarea corectă a programării generice, de la atribute dependente de tip până la specializări complexe. Funcția **average<T>** completează necesarul de funcții șablon independente. Cele trei modele de proiectare — **Observer**, **Factory Method** și **Singleton** — sunt implementate riguros și aplicate în contexte potrivite temei proiectului, transformând un cod procedural într-un sistem orientat pe obiecte, modular și extrem de ușor de întreținut pe termen lung.
